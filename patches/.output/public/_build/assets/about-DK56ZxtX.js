@@ -1,0 +1,1 @@
+import{j as e,L as r}from"./index-CVribm6b.js";function t(){return e.jsxs("div",{children:[e.jsx("h1",{children:"About"}),e.jsx("p",{children:e.jsx(r,{to:"/",children:"Home page"})})]})}export{t as default};

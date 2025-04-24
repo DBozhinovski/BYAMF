@@ -1,0 +1,15 @@
+{
+  "name": "patches-prod",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "pathe": "1.1.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "regexparam": "3.0.0",
+    "use-sync-external-store": "1.5.0",
+    "vinxi": "0.5.4",
+    "wouter": "3.7.0"
+  }
+}

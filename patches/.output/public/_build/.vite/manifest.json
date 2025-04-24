@@ -1,0 +1,39 @@
+{
+  "_index-CVribm6b.js": {
+    "file": "assets/index-CVribm6b.js",
+    "name": "index"
+  },
+  "src/routes/about.tsx?pick=default": {
+    "file": "assets/about-DK56ZxtX.js",
+    "name": "about",
+    "src": "src/routes/about.tsx?pick=default",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-CVribm6b.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default": {
+    "file": "assets/index-DdkF58Z1.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-CVribm6b.js"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-Dwh7DCaV.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_index-CVribm6b.js"
+    ],
+    "dynamicImports": [
+      "src/routes/about.tsx?pick=default",
+      "src/routes/index.tsx?pick=default"
+    ]
+  }
+}
