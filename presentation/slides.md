@@ -15,6 +15,21 @@ mdc: true
 </div>
 
 ---
+title: Build you a metaframework in 30 minutes or less
+  apply unocss classes to the current slide
+layout: center
+---
+
+# > whoami
+
+<img src="./darko.webp" class="rounded-full w-48 h-48 mb-8" />
+
+- 🧑‍🌾 **CottageCore** webdev
+- 💼 DevRel @ **SuperTokens**
+- ❤️ Linux, FOSS, Web Platform, The Open Web...
+- 🧙‍♂️ D&D, Gaming, Fantasy
+
+---
 src: ./pages/01-intro.md
 transition: slide-left
 ---
@@ -61,5 +76,45 @@ transition: slide-left
 
 ---
 src: ./pages/10-checkpoint-demo.md
+transition: slide-left
+---
+
+---
+src: ./pages/11-fs-router.md
+transition: slide-left
+---
+
+---
+src: ./pages/12-vite-config-fsr.md
+transition: slide-left
+---
+
+---
+src: ./pages/13-app-routes.md
+transition: slide-left
+---
+
+---
+src: ./pages/14-checkpoint-demo-2.md
+transition: slide-left
+---
+
+---
+src: ./pages/15-server-functions.md
+transition: slide-left
+---
+
+---
+src: ./pages/16-final-demo.md
+transition: slide-left
+---
+
+---
+src: ./pages/17-summary.md # Renamed from 16
+transition: slide-left
+---
+
+---
+src: ./pages/18-conclusion.md # Renamed from 17
 transition: slide-left
 ---

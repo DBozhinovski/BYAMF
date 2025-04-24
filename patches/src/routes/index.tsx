@@ -9,7 +9,6 @@ async function helloServer() {
 }
 
 export default function Index() {
-  const [count, setCount] = useState(0);
   const [serverMessage, setServerMessage] = useState(
     "Loading server message..."
   );

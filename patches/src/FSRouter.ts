@@ -1,6 +1,6 @@
 import { BaseFileSystemRouter, cleanPath } from "vinxi/fs-router";
 
-export class ServerRouter extends BaseFileSystemRouter {
+export class FSRouter extends BaseFileSystemRouter {
   toPath(src: string) {
     const routePath = cleanPath(src, this.config)
       .slice(1)

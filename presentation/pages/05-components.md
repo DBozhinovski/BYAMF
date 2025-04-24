@@ -10,7 +10,7 @@ layout: center
   <div>
     
   <ul>
-      <li v-click><strong>Router(s):</strong> The Vinxi page router for the server + React Router for the client </li>
+      <li v-click><strong>Router(s):</strong> The Vinxi page router for the server + Wouter for the client </li>
       <li v-click><strong>SSR:</strong> <code>@react-dom/server</code></li> 
       <li v-click><strong>Server Functions:</strong> <code>@vinxi/server-functions/plugin</code> </li>
       <li v-click><strong>CSR:</strong> <code>@react</code></li>

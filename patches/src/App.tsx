@@ -6,6 +6,8 @@ import { Route } from "wouter";
 import Index from "./routes/index";
 import About from "./routes/about";
 import Basic from "./routes/basic";
+import Routing from "./routes/routing";
+import AboutRouting from "./routes/about-routing";
 
 const Assets = createAssets(
   getManifest("client").handler,
@@ -25,6 +27,14 @@ const routes = [
     path: "/basic",
     component: Basic,
   },
+  {
+    path: "/routing",
+    component: Routing,
+  },
+  {
+    path: "/about-routing",
+    component: AboutRouting,
+  },
 ];
 
 export default function App() {
@@ -42,16 +52,17 @@ export default function App() {
       </head>
       <body>
         <div id="app">
-          <img src="/patches.svg" width="200px" alt="Patches Logo" />
-          <Suspense fallback="Loading...">
-            {routes.map((route) => (
-              <Route
-                key={route.path}
-                path={route.path}
-                component={route.component}
-              />
-            ))}
-          </Suspense>
+          <div className="logo">
+            <img src="/patches.svg" width="60px" alt="Patches Logo" />
+            Patches.js
+          </div>
+          {routes.map((route) => (
+            <Route
+              key={route.path}
+              path={route.path}
+              component={route.component}
+            />
+          ))}
         </div>
       </body>
     </html>

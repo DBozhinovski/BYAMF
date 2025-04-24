@@ -30,3 +30,11 @@
     }
   }
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 42px;
+  font-weight: 600;
+  font-family: sans-serif;
+}

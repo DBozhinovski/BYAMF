@@ -5,7 +5,7 @@ export default function Basic() {
 
   return (
     <div className="demo">
-      <h1>Hello from Patches! (Home)</h1>
+      <h1>Hello from Patches!</h1>
       <div className="counter demo">
         <h2>Counter Example</h2>
         <button onClick={() => setCount((c) => c + 1)}>Increase Count</button>
